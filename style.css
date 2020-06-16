@@ -1,0 +1,10 @@
+@media screen and (min-width:992px){
+    .katu{
+        width: 163px;
+    }
+} 
+@media screen and (max-width:992px){
+    .katu .kotik{
+        width: 500px;
+    }
+} 
