@@ -55,7 +55,7 @@
     <div class="container">
       <div class="row d-flex justify-content-around ">
           <nav class="navbar navbar-expand-lg navbar-secondary bg-dark col-12 ">
-            <a class="navbar-brand text-primary col-4" style="color: white" href="Shop.html">Online Shop</a>
+            <a class="navbar-brand text-primary col-4" style="color: white" href="index.html">Համակարգիչների խանութ</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,7 +85,7 @@
                 <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item active" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
                   <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registorModal">Register</a>
-                  <a class="dropdown-item" href="#">My Orders</a>
+                  <a class="dropdown-item" href="account.html">My Orders</a>
                   <a class="dropdown-item" href="#">Account Settings</a>
                 </div>
               </div>
@@ -190,7 +190,7 @@
                   </nav>
                   <div class="ml-auto col-12 col-lg-2">
                       <div class="row ">
-                      <div class="form-group col-12 col-lg-3"style="padding:10px 0px 0px 0px;">
+                      <div class="form-group col-12 col-lg-12"style="padding:10px 0px 0px 0px;">
                       <select class="custom-select katu " id="exampleFormControlSelect1">
                       <option> Low To High</option>
                       <option>$1000-$5000 </option>
@@ -208,14 +208,150 @@
              <div class="container">
                  <div class="row ">
                      <div class="col-4 d-none d-lg-block border "style="background-color: #2cdba5;">
-                       <div class="col  d-flex flex-column" >
-                         <a href="#" style="margin-bottom: 5px;">CATEGORIES</a>
+                       <div class="col  d-flex flex-column">
+                        <div class="accordion" id="accordionExample">
+                          <div class="">
+                            <div class="" id="headingOne">
+                              <h2 class="mb-0">
+                                <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Categories
+                                </button>
+                              </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="card-body">
+                                <div class="custom-control custom-radio ">
+                                  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadioInline1"> Mobile</label>
+                                </div>
+                                <div class="custom-control custom-radio ">
+                                  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadioInline2">Landline Phone</label>
+                                </div>
+                                <div class="custom-control custom-radio ">
+                                  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
+                                  <label class="custom-control-label" for="customRadioInline3">Walkie Talkie</label>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="" id="headingOne5">
+                              <h2 class="mb-0">
+                                <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">
+                                  Select CPU
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsetwo" class="collapse show" aria-labelledby="headingOne5" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="card-body">
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline4">128GB</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline5">256GB</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline6" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline6">512GB</label>
+                                    </div>
+                                  </div>                                
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="">
+                            <div class="" id="headingOne1">
+                              <h2 class="mb-0">
+                                <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefuor" aria-expanded="true" aria-controls="collapseOne">
+                                  Select Brand
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsefuor" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="card-body">
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline10" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline10">Apple</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline11" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline11">Sumsung</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline12" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline12">Nokia</label>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="" id="headingOne3">
+                              <h2 class="mb-0">
+                                <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsefive" aria-expanded="true" aria-controls="collapseOne">
+                                  Color
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsefive" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="card-body">
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline13" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline13">Gold</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline14" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline14">Black</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline15" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline15">Green</label>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="" id="headingOne3">
+                              <h2 class="mb-0">
+                                <button class="btn  btn-block text-left" type="button" data-toggle="collapse" data-target="#collapsesix" aria-expanded="true" aria-controls="collapseOne">
+                                  Select Size
+                                </button>
+                              </h2>
+                            </div>
+                        
+                            <div id="collapsesix" class="collapse show" aria-labelledby="headingOne3" data-parent="#accordionExample">
+                              <div class="card-body">
+                                  <div class="card-body">
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline16" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline16">Small</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline17" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline17">Larg</label>
+                                    </div>
+                                    <div class="custom-control custom-radio ">
+                                      <input type="radio" id="customRadioInline18" name="customRadioInline1" class="custom-control-input">
+                                      <label class="custom-control-label" for="customRadioInline18">Exctralarg</label>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                          
-                         <a href="#" style="margin-bottom: 5px;">Select CPU</a>
-                         <a href="#" style="margin-bottom: 5px;">Select Size</a>
-                         <a href="#" style="margin-bottom: 5px;">Color</a>
-                         <a href="#" style="margin-bottom: 5px;">CONDITION</a>
-                         <a href="#" style="margin-bottom: 5px;">Select Brand</a>
+                      
                          <div class="custom-control custom-switch">
                             <input type="checkbox" class="custom-control-input" id="customSwitch1">
                             <label class="custom-control-label" for="customSwitch1">With Images Only</label>
