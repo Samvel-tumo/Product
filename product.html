@@ -38,11 +38,11 @@
             </div>
           </div>
           <div class="col col">
-  
-            <button type="button" class="bg-warning d-none d-lg-block" style="margin: 2px 0px;size: 100%;">
+            <a href="card.html"><button type="button" class="bg-warning d-none d-lg-block" style="margin: 2px 0px;size: 100%;">
               Զամբյուղ <span class="badge badge-light bg-danger text-light">3</span>
   
-            </button>
+            </button></a>
+            
   
           </div>
   
@@ -182,10 +182,9 @@
                 <div class="row col-12"style="padding:0px;">
                     <nav aria-label="breadcrumb" class="col-12 col-lg-8 kotik" style="width:800px;padding:10px 0px 0px 0px;">
                   <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Online Shop</a></li>
-                    <li class="breadcrumb-item"><a href="#">Categories</a></li>
-                    <li class="breadcrumb-item"><a href="#">Telephone</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Apple-Iphone-11-pro-512gb-Gold</li>
+                    <li class="breadcrumb-item"><a href="index.html">Online Shop</a></li>
+                    <li class="breadcrumb-item"><a href="Shop.html">Categories</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Apple-Iphone-11-pro</li>
                   </ol>
                   
                 </nav>
@@ -227,19 +226,9 @@
                                 <div class="mb-3 d-flex">
                                     <div class="input-group is-invalid" style="width: 170px;">
                                       <div>
-                                        <label class="input-group-text" for="validatedInputGroupSelect">Quantity</label>
+                                        <label class="input-group-text" id="quantity" for="validatedInputGroupSelect">Quantity</label>
                                       </div>
-                                      <select class="custom-select" id="validatedInputGroupSelect" required>
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
-                                        <option value="3">3</option>
-                                        <option value="4">4</option>
-                                        <option value="5">5</option>
-                                        <option value="6">6</option>
-                                        <option value="7">7</option>
-                                        <option value="8">8</option>
-                                        <option value="9">9</option>
-                                      </select>
+                                      <input class="form-control w-12 ml-2" id="quantity" value="1" name="quantity"min="1" max="100" type="number">
                                      
                                     </div>
                                     <a href="card.html">
@@ -372,7 +361,8 @@
             </div>
             
             <div class="container">
-              <div class="d-flex justify-content-center flex-lg-row  flex-column bd-highligh">
+              <div class="row">
+                <div class="d-flex justify-content-center flex-lg-row  flex-column bd-highligh">
                 <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">contact us</a>
                 <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">live Chat</a>
                 <a class="text-center flex-fill py-3 px-lg-5 border bg-light text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">shipping</a>
@@ -459,6 +449,8 @@
               
 
           </div>
+              </div>
+              
           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
               <div class="modal-content">
